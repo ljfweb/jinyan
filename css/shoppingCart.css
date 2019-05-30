@@ -1,0 +1,73 @@
+/*标题*/
+#tip_wrap{height: 30px;background: #F9F9F9;margin-top: -5px;}
+#tip_wrap .tip{width: 1000px;height: 30px;margin: 0 auto;}
+.tip_left{line-height: 30px;float: left;}
+.tip_left span{color: #9B9B9B;}
+.tip_left a{margin-left: 10px;}
+.tip_right{float: right;line-height: 30px;position: relative;}
+.tip_right span{float: left;margin-left: 30px;}
+.tip_right span:nth-child(6){margin-left: 60px;}
+.tip_right span:nth-child(8),
+.tip_right span:nth-child(10){margin-left: 10px;}
+.tip_right span i{cursor: pointer;display: block;width: 24px;height: 20px;margin-top: 5px;background-image: url(http://rs.minshengec.com/ccmall/cmbc/images/shop/shopcart/head_atte_sprite.png);background-repeat: no-repeat;}
+.tip_right span:nth-child(8) i:hover{background-position: -24px 0;}
+.tip_right span:last-child i{background-position: 0 -20px;}
+.tip_right span:last-child i:hover{background-position: -24px -20px;}
+.tip_right em{position: absolute;height: 16px;width: 0;border-left: 1px solid #E4E4E4;top: 7px;left: 0;}
+.tip_right em:nth-child(2){left: 92px;}
+.tip_right em:nth-child(4){left: 170px;}
+.tip_right em:nth-child(7){left: 382px;}
+.tip_right em:nth-child(9){left: 417px;}
+/*步骤*/
+#nav_wrap{height: 128px;}
+.nav{width: 1000px;height: 128px;margin: 0 auto;box-sizing: border-box;padding: 59px 0 29px;}
+.nav img{width: 318px;height: 40px;}
+/*地址*/
+#address_wrap{height: 43px;}
+.address{width: 1000px;height: 43px;margin: 0 auto;}
+.address>span{float: left;}
+.distpicker{float: left;}
+.address>span:first-child{color: #3f3f3f;font-size: 24px;font-weight: bold;}
+.address>span:nth-child(2){font-size: 13px;color: #666666;margin-left: 10px;font-weight: bold;}
+.address>span:last-child{color: #A4A4A4;font-size: 13px;margin-left: 10px;}
+#commodity_details{width: 100%;}
+#commodity_details table{width: 1000px;margin: 0 auto;}
+#commodity_details table tr th input{float: left;margin-top: 5px;}
+#commodity_details table tr th span{float: left;line-height: 24px;}
+#commodity_details table tr td input:first-child{float: left;margin-top: 30px;}
+#commodity_details table tr td img{float: left;width: 80px;height: 80px;}
+#commodity_details table tr th:first-child{width: 137px;padding-left: 10px;box-sizing: border-box;}
+#commodity_details table tr td{padding-left: 10px;}
+#commodity_details table tr th:nth-child(2){width: 206px;}
+#commodity_details table tr th:nth-child(3){width: 127px;}
+#commodity_details table tr th:nth-child(4){width: 78px;}
+#commodity_details table tr th:nth-child(5){width: 88px;}
+#commodity_details table tr th:nth-child(6){width: 97px;}
+#commodity_details table tr th:nth-child(7){width: 106px;}
+#commodity_details table tr th:nth-child(8){width: 68px;}
+#commodity_details table tr th:nth-child(9){width: 68px;}
+#commodity_details table tr td a{margin-top: 5px;cursor: pointer;width: 15px;height: 15px;border: 1px solid #A8A8A8;float: left;text-align: center;line-height: 15px;font-weight: bold;font-size: 12px;}
+#commodity_details table tr td input:nth-child(2){margin-top: 0px;margin-left: 5px;margin-right: 5px;float: left;width: 25px;height: 25px;border: 1px solid #A8A8A8;text-align: center;line-height: 25px;}
+#commodity_details table tr td a:hover{text-decoration: none;color: #666666;}
+.total_price{color: red;}
+.selected{color: #005ea7;cursor: pointer;}
+.selected:hover{color: red;}
+.del{color: #005ea7;cursor: pointer;}
+.commodity_totals_content{width: 1000px;margin: 0 auto;padding: 30px 10px;border: 1px solid #E1E1E1;box-sizing: border-box;}
+.commodity_totals{float: left;}
+.del_more{float: left;margin-left: 20px;color: #005ea7;cursor: pointer;}
+.del_more:hover{color: red;}
+.commodity_msg{float: right;}
+.commodity_msg p span:first-child{float: left;}
+.commodity_msg p:first-child span{margin-left: 12px;}
+.commodity_msg p:nth-child(2) span{margin-left: 48px;}
+.commodity_msg p span:last-child{float: right;color: red;}
+.commodity_msg p:last-child span:last-child{font-size: 16px;font-weight: bold;}
+.btn{width: 1000px;margin: 0 auto;margin-top: 20px;margin-bottom: 200px;}
+.btn button{border: none;width: 157px;height: 36px;cursor: pointer;}
+.btn button:first-child{font-size: 17px;color: #3f3f3f;margin-left: 670px;}
+.btn button:last-child{font-size: 18px;color: white;background: #E31C2F;margin-left: 10px;}
+.nocommodity{display: none;width: 1000px;height: 200px;margin: 0 auto;box-sizing: border-box;border: 1px solid #E1E1E1;text-align: center;line-height: 200px;font-size: 40px;}
+.nocommodity a{font-size: 50px;}
+.nocommodity img{float: left;margin-top: 70px;margin-left: 200px;}
+.nocommodity span{float: left;}

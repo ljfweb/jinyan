@@ -1,0 +1,345 @@
+/*购物车数量*/
+.commodity_num_wrap{position: absolute;color: white;top: 5px;left: 75px;width: 20px;height: 20px;background: red;border-radius: 10px;}
+.commodity_num{position: absolute;top: -6px;left: -3px;}
+/*注册登录*/
+.sign_in:hover{text-decoration: underline;}
+.register:hover{text-decoration: underline;}
+/*顶部*/
+#tip{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+	line-height: 30px;
+}
+#tip span{
+	color: #9b9b9b;
+	font-size: 12px;
+}
+#tip span:nth-child(2),
+#tip span:nth-child(3){
+	margin-left: 15px;
+	color: #474747;
+	cursor: pointer;
+}
+.right{
+	float: right;
+	list-style: none;
+	position: relative;
+}
+.mylist{
+	float: left;
+	margin-right: 20px;
+}
+.mylist:after{
+	content: "";
+	width: 0;
+	height: 16px;
+	border-left: 1px solid #e4e4e4;
+	position: absolute;
+	top: 8px;
+	left: 58px;
+}
+#tip .mylist span{
+	color: #757373;
+	cursor: pointer;
+}
+.follow{
+	float: left;
+}
+.follow:after{
+	content: "";
+	width: 0;
+	height: 16px;
+	border-left: 1px solid #e4e4e4;
+	position: absolute;
+	top: 8px;
+	left: 170px;
+}
+#tip .follow span{
+	float: left;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	color: #a8a8a8;
+}
+.pic{
+	margin-left: 5px;
+	float: left;
+	width: 50px;
+	height: 30px;
+	cursor: pointer;
+	background-image: url(http://img.minshengec.com/img/mkt/ms_credit/v1/weixinIco.png);
+	background-repeat: no-repeat;
+	background-position: 10px 5px;
+}
+/*分类*/
+#nav_warp{
+	height: 700px;
+	width: 100%;
+	background: white;
+}
+.nav{
+	width: 1200px;
+	height: 112px;
+	margin: 0 auto;
+	background: white;
+}
+.nav img{
+	background: white;
+	margin-top: 14px;
+	float: left;
+}
+.search_warp{
+	width: 454px;
+	height: 30px;
+	border-radius: 30px;
+	border: 1px solid #ba0045;
+	float: left;
+	overflow: hidden;
+	margin-top: 22px;
+	background: #ba0045;
+}
+.search{
+	width: 392px;
+	height: 30px;
+	outline: none;
+	border: none;
+	text-indent: 20px;
+}
+.search_btn{
+	width: 52px;
+	height: 30px;
+	background: #ba0045;
+	border-radius: 30px;
+	outline: none;
+	border: none;
+	color: white;
+}
+.warp{
+	width: 100%;
+	height: 33px;
+	background: #efecec;
+}
+.small_warp{
+	width: 1200px;
+	height: 33px;
+	margin: 0 auto;
+}
+.nav_left{
+	cursor: pointer;
+	width: 200px;
+	height: 33px;
+	background: #980038;
+	color: white;
+	float: left;
+	text-align: center;
+	line-height: 25px;
+	position: relative;
+	font-size: 14px;
+}
+.nav_left:before{
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	border-top: 2px solid white;
+	border-right: 2px solid white;
+	transform: rotate(135deg);
+	bottom: 5px;
+	left: 95px;
+}
+.nav_right{
+	width: 1000px;
+	height: 33px;
+	background: #efecec;
+	float: left;
+	font-size: 14px;
+	line-height: 33px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.nav_right span:last-child{
+	margin-left: 30px;
+}
+.vip{
+	display: block;
+	float: right;
+	width: 189px;
+	height: 33px;
+	background-image: url(http://img.minshengec.com/img/mkt/ms_credit/v1/card.png?v=150415);
+	background-repeat: no-repeat;
+	background-position: center 0;
+}
+.vip:hover{
+	background-position: center -35px;
+}
+.shop_car{
+	width: 95px;
+	height: 32px;
+	float: left;
+	line-height: 32px;
+	text-indent: 10px;
+	border-radius: 32px;
+	overflow: hidden;
+	box-shadow: 1px 0px 1px #bbb;
+	margin-top: 21px;
+	margin-left: 40px;
+	background: #F3F3F3;
+	cursor: pointer;
+	position: relative;
+}
+.shop_car i{
+	background: #F3F3F3;
+	float: left;
+	height: 32px;
+	width: 32px;
+	background-image: url(http://img.minshengec.com/img/mkt/ms_credit/v1/head_sprite0525.png);
+	background-repeat: no-repeat;
+	background-position: -15px -60px;
+}
+/*商品分类*/
+.nav_bottom{
+	width: 1200px;
+	height: 573px;
+	margin: 0 auto;
+	position: relative;
+	/*background: skyblue;*/
+	overflow: hidden;
+}
+.nav_bottom_left{width: 200px;float: left;display: none;}
+.nav_bottom_left ul{
+	list-style: none;
+	width: 200px;
+	height: 490px;
+	background: #000;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 99;
+}
+.nav_bottom_left ul li{
+	width: 200px;
+	height: 52px;
+	color: white;
+	/*background: red;*/
+	margin: 0 auto;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.nav_bottom_left ul li:first-child{
+	margin-top: 15px;
+}
+.nav_bottom_left ul li i{
+	margin-left: 10px;
+	margin-top: 14px;
+	width: 20px;
+	height: 24px;
+	float: left;
+	background-image: url(http://img.minshengec.com/img/mkt/ms_credit/v1/head_sprite0525.png);
+	background-repeat: no-repeat;
+}
+.nav_bottom_left ul li:first-child i{
+	background-position: -80px -130px;
+}
+.nav_bottom_left ul li:nth-child(2) i{
+	background-position: -80px -172px;
+}
+.nav_bottom_left ul li:nth-child(3) i{
+	background-position: -80px -211px;
+}
+.nav_bottom_left ul li:nth-child(4) i{
+	background-position: -80px -255px;
+}
+.nav_bottom_left ul li:nth-child(5) i{
+	background-position: -80px -294px;
+}
+.nav_bottom_left ul li:nth-child(6) i{
+	background-position: -80px -330px;
+}
+.nav_bottom_left ul li:nth-child(7) i{
+	background-position: -80px -371px;
+}
+.nav_bottom_left ul li:nth-child(8) i{
+	background-position: -80px -412px;
+}
+.nav_bottom_left ul li:last-child i{
+	background-position: -80px -455px;
+}
+.one{
+	margin-top: 17px;
+	width: 70px;
+	height: 18px;
+	float: left;
+	font-size: 13px;
+	border-right: 1px solid #252525;
+	text-align: center;
+	line-height: 18px;
+}
+.two{
+	margin-top: 17px;
+	width: 80px;
+	height: 18px;
+	float: left;
+	font-size: 12px;
+	padding-left: 8px;
+	box-sizing: border-box;
+	line-height: 18px;
+	color: #939292;
+}
+/*详细商品分类*/
+.nav_bottom>ul{
+	width: 575px;
+	height: 484px;
+	background: #f9f9f9;
+	position: absolute;
+	top: -10px;
+	left: 200px;
+	display: none;
+	z-index: 100;
+}
+.nav_bottom>ul li{
+	list-style: none;
+	width: 565px;
+	height: 464px;
+	background: #ffffff;
+	margin-left: 10px;
+	margin-top: 20px;
+	display: none;
+}
+.nav_bottom>ul .active{
+	display: block;
+}
+.hid_left{
+	width: 365px;
+	float: left;
+}
+.hid_left_tip{
+	width: 85px;
+	float: left;
+	margin-top: 5px;
+}
+.hid_left_tip span{
+	float: left;
+	width: 85px;
+	height: 17px;
+	line-height: 17px;
+	box-sizing: border-box;
+	border-right: 1px solid #c8c6c7;
+	font-size: 14px;
+	margin-left: 5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.hid_left_content{
+	margin-top: 2px;
+	width: 280px;
+	float: left;
+	margin-bottom: 20px;
+}
+.hid_left_content span{line-height: 22px;font-size: 12px;margin-left: 15px;display: block;float: left;cursor: pointer;}
+.hid_right{width: 200px;float: left;background: #ffffff;}
+.hid_right img{width: 100px;height: 95px;margin-left: 50px;cursor: pointer;}
+.hid_right div{position: relative;margin-bottom: 30px;}
+.hid_right .price{position: absolute;left: 135px;top: 0;cursor: pointer;}
+.hid_right .name{font-size: 12px;text-align: center;cursor: pointer;}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/styleReset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	</head>
+	<body>
+		<p id="tip">
+			欢迎来到民生信用卡商城
+			<a href="login.html">[登录]</a>
+			<a href="register.html">[注册]</a>
+		</p>
+		<div id="logo">
+			<img src="http://rs.minshengec.com/ccmall/cmbc/images/passport/ms_logo.png"/>
+			<span>欢迎注册</span>
+		</div>
+		<div id="content">
+			<ul class="content_wrap">
+				<li>
+					<span>
+						<em>*</em>
+						<a>用户名</a>
+						<p>：</p>
+					</span>
+					<input type="text" id="user" />
+					<span id="user_tips"></span>
+					<div class="userRight">√</div>
+					<div class="userFalse">×</div>
+				</li>
+				<li>
+					<span>
+						<em>*</em>
+						<a>密码</a>
+						<p>：</p>
+					</span>
+					<input type="password" id="password" />
+					<span id="password_tips"></span>
+					<div class="passRight">√</div>
+					<div class="passFalse">×</div>
+				</li>
+				<li>
+					<span>
+						<em>*</em>
+						<a>请确认密码</a>
+						<p>：</p>
+					</span>
+					<input type="password" id="confirm_password" />
+					<span id="confirm_password_tips"></span>
+					<div class="confirmRight">√</div>
+					<div class="confirmFalse">×</div>
+				</li>
+				<li>
+					<span>
+						<em>*</em>
+						<a>请输入验证码</a>
+						<p>：</p>
+					</span>
+					<input type="text" id="code" />
+					<div class="code_box">aaaa</div>
+					<div class="code_box_txt">换一张</div>
+					<span id="code_tips" style="width: 250px;"></span>
+					<div class="codeRight">√</div>
+					<div class="codeFalse">×</div>
+				</li>
+				<li>
+					<span>
+						<em>*</em>
+						<a>手机号</a>
+						<p>：</p>
+					</span>
+					<input type="text" id="tel" />
+					<span id="tel_tips"></span>
+					<div class="telRight">√</div>
+					<div class="telFalse">×</div>
+				</li>
+				<li>
+					<input type="button" value="同意以下协议并提交" id="submission" /><br />
+					<div>
+						<a href="">《民生商城服务协议》</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+</html>

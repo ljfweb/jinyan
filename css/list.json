@@ -1,0 +1,74 @@
+{
+	"data":[
+		{
+			"pid":10001,
+			"pname":"雷瓦 独立浮动三刀头电动剃须刀 VT67",
+			"jp":199,
+			"mp":398,
+			"img":"http://img.minshengec.com/mainaddimage/2019-03-29/1516682862619_220x220.jpeg"
+		},
+		{
+			"pid":10002,
+			"pname":"乐美雅（Luminarc）钢化玻璃食品级PP盖乐宜厨保鲜盒",
+			"jp":118,
+			"mp":118,
+			"img":"http://img.minshengec.com/mainaddimage/2019-01-30/1570305297822_220x220.jpeg"
+		},
+		{
+			"pid":10003,
+			"pname":"【新品开售】OPPO Reno 10倍变焦版 全景屏高通骁龙855手机全网通双卡双待",
+			"jp":3999,
+			"mp":3999,
+			"img":"http://img.minshengec.com/mainaddimage/2019-04-23/1399397676287_220x220.jpeg"
+		},
+		{
+			"pid":10004,
+			"pname":"惠普HP 星系列 i5便携窄边框笔记本电脑 14英寸/i5-8265/8G 16G/可选双硬盘/核显/W10/银 粉 金",
+			"jp":5499,
+			"mp":5999,
+			"img":"http://img.minshengec.com/mainaddimage/2018-12-06/1519088303925_220x220.jpeg"
+		},
+		{
+			"pid":10005,
+			"pname":"苏泊尔铲勺5件套T0905Q",
+			"jp":149,
+			"mp":139,
+			"img":"http://img.minshengec.com/saas/mainaddimage/2018-07-13/1552768549277.jpeg@resize,m_lfit,w_220,limit_0"
+		},
+		{
+			"pid":10006,
+			"pname":"华为 HUAWEI P30 麒麟980AI智能芯片全面屏屏内指纹超感光三摄手机全网通双4G手机",
+			"jp":4288,
+			"mp":4288,
+			"img":"http://img.minshengec.com/mainaddimage/2019-04-22/1620476103309_220x220.jpeg"
+		},
+		{
+			"pid":10007,
+			"pname":"Beats X 蓝牙无线 入耳式手机耳机 颈挂式耳机 带麦可通话",
+			"jp":799,
+			"mp":999,
+			"img":"http://img.minshengec.com/mainaddimage/2019-04-03/1540785634198_220x220.jpeg"
+		},
+		{
+			"pid":10008,
+			"pname":"德国倍世 BWT 即热式净饮一体机 过滤净水器 镁离子净水机 KT2211",
+			"jp":512,
+			"mp":1299,
+			"img":"http://img.minshengec.com/saas/mainaddimage/2018-10-19/1672599238247.jpeg@resize,m_lfit,w_220,limit_0"
+		},
+		{
+			"pid":10009,
+			"pname":"宜阁 EDEI 酸奶机家用全自动发酵早餐机 S-001",
+			"jp":44,
+			"mp":69,
+			"img":"http://img.minshengec.com/mainaddimage/2018-11-27/1607074664773_220x220.jpeg"
+		},
+		{
+			"pid":10010,
+			"pname":"碧水源纳滤净水机D601R [白色/黑色]",
+			"jp":4780,
+			"mp":5980,
+			"img":"http://img.minshengec.com/mainaddimage/2018-12-03/1422131981706_220x220.jpeg"
+		}
+	]
+}

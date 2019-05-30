@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/shoppingCart.css"/>
+		<link rel="stylesheet" type="text/css" href="css/styleReset.css"/>
+	</head>
+	<body>
+		<div id="tip_wrap">
+			<div class="tip">
+				<div class="tip_left">
+					<span class="sign_in_txt">欢迎来到民生商城</span>
+					<a class="sign_in">[登录]</a>
+					<a class="register">[注册]</a>
+				</div>
+				<div class="tip_right">
+					<span><a href="">我的订单</a></span>
+					<em></em>
+					<span><a href="">积分专区</a></span>
+					<em></em>
+					<span><a href="">民生银行信用卡中心</a></span>
+					<span>关注</span>
+					<em></em>
+					<span><i></i></span>
+					<em></em>
+					<span><i></i></span>
+				</div>
+			</div>
+		</div>
+		<div id="nav_wrap">
+			<div class="nav">
+				<a href="index.html"><img src="http://rs.minshengec.com/ccmall/cmbc/images/shop/shopcart/logo.jpg"/></a>
+			</div>
+		</div>
+		<div id="address_wrap">
+			<div class="address">
+				<span>我的购物车</span>
+				<span>送至</span>
+				<div data-toggle="distpicker" class="distpicker">
+					<span>:</span>
+					<select></select>
+					<select></select>
+					<select></select>
+				</div>
+				<span>选择收货区域，查看货品详细信息</span>
+			</div>
+		</div>
+		<div id="commodity_details">
+			<table border="" cellspacing="" cellpadding="">
+				<tr>
+					<th>
+						<input type="checkbox" class="checkAll" />
+						<span>全选</span>
+					</th>
+					<th>商品</th>
+					<th>商品信息</th>
+					<th>单价</th>
+					<th>数量</th>
+					<th>购买方式</th>
+					<th>优惠</th>
+					<th>小计</th>
+					<th>操作</th>
+				</tr>
+				<tbody class="wrap">
+					
+				</tbody>
+			</table>
+			<div class="nocommodity">
+				<img src="http://rs.minshengec.com/ccmall/cmbc/images/shop/shopcart/procedure/shopCart.jpg"/>
+				<span>您的购物车是空的，<a href="index.html">去购物</a></span>
+			</div>
+		</div>
+		<div id="commodity_totals_wrap">
+			<div class="commodity_totals_content clearfix">
+				<div class="commodity_totals">
+					<input type="checkbox" class="checkAll"/>
+					<span>全选</span>
+				</div>
+				<span class="del_more">删除选中项</span>
+				<div class="commodity_msg">
+					<p>
+						<span><a class="commodity_number">0</a>件 商品总价：</span>
+						<span class="commodity_totals_price">￥0.00</span>
+					</p>
+					<p>
+						<span>已优惠：</span>
+						<span>￥0.00</span>
+					</p>
+					<p>
+						<span>总价(不含运费)：</span>
+						<span class="commodity_totals_price">￥0.00</span>
+					</p>
+				</div>
+			</div>
+			<div class="btn">
+				<button class="continue_shopping">继续购物</button>
+				<button class="settlement">去结算 ></button>
+			</div>
+		</div>
+	</body>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="js/shoppingCart.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/distpicker.data.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/distpicker.js" type="text/javascript" charset="utf-8"></script>
+</html>

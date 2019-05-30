@@ -1,0 +1,30 @@
+#tip{height: 36px;background: #F9F9F9;margin-top: -5px;}
+#head{width: 1000px;height: 128px;margin: 0 auto;}
+#head img{width: 341px;height: 128px;}
+#content{width: 100%;height: 602px;background: #d4e9fa;overflow: hidden;}
+.content{width: 1000px;height: 412px;margin: 40px auto 150px;}
+.content_top{width: 780px;height: 272px;margin: 0 auto;}
+.content_bottom{width: 780px;height: 140px;margin: 0 auto;}
+.content_left{width: 350px;height: 272px;float: left;}
+.content_right{border-left: 1px solid white;width: 430px;height: 260px;float: left;box-sizing: border-box;padding-left: 80px;}
+.content_left input{cursor: pointer;border-radius: 5px;color: white;font-weight: bold;text-align: center;line-height: 60px;font-size: 16px;width: 260px;height: 60px;border: none;outline: none;background: #ff7a4c;margin-top: 10px;}
+.content_left img{width: 264px;height: 162px;margin-top: 40px;}
+.ordinary_users span>img{float: left;}
+.ordinary_users span{float: left;position: relative;}
+.ordinary_users span:first-child{color: #2188dc;font-family: "微软雅黑";font-size: 14px;}
+.ordinary_users span:last-child{color: #424242;font-size: 14px;font-family: "微软雅黑";margin-top: 8px;margin-left: 120px;}
+.ordinary_users span>p{position: absolute;width: 100px;}
+.ordinary_users span .one{top: 12px;left: 40px;cursor: pointer;}
+.ordinary_users span .two{top: 2px;left: 20px;cursor: pointer;}
+.user input{width: 240px;height: 38px;border: none;background: white;margin-top: 10px;box-sizing: border-box;padding: 10px 4px;text-indent: 7px;border-radius: 5px;}
+.password input{width: 240px;height: 38px;border: none;background: white;margin-top: 20px;box-sizing: border-box;padding: 10px 4px;text-indent: 7px;border-radius: 5px;}
+.login input{cursor: pointer;color: white;font-weight: bold;font-size: 14px;width: 240px;height: 36px;border: none;background: #66ade8;margin-top: 20px;box-sizing: border-box;border-radius: 5px;}
+.register{margin-top: 20px;}
+.register a{color: #7d7d7d;font-size: 12px;font-family: "微软雅黑";}
+.register a:last-child{margin-left: 130px;}
+.register a:hover{color: #7D7D7D;}
+.content_bottom dl{float: right;}
+.content_bottom dl dt{width: 355px;height: 20px;font-size: 13px;color: #909090;}
+.content_bottom dl dd{width: 355px;padding-left: 22px;box-sizing: border-box;color: #909090;}
+.content_bottom dl dd span{position: relative;}
+.content_bottom dl dd span p{position: absolute;top: 0px;left: -20px;}

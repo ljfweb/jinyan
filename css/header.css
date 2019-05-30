@@ -1,0 +1,189 @@
+#tip{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+	line-height: 30px;
+}
+#tip span{
+	color: #9b9b9b;
+	font-size: 12px;
+}
+#tip span:nth-child(2),
+#tip span:nth-child(3){
+	margin-left: 15px;
+	color: #474747;
+	cursor: pointer;
+}
+.right{
+	float: right;
+	list-style: none;
+	position: relative;
+}
+.mylist{
+	float: left;
+	margin-right: 20px;
+}
+.mylist:after{
+	content: "";
+	width: 0;
+	height: 16px;
+	border-left: 1px solid #e4e4e4;
+	position: absolute;
+	top: 8px;
+	left: 58px;
+}
+#tip .mylist span{
+	color: #757373;
+	cursor: pointer;
+}
+.follow{
+	float: left;
+}
+.follow:after{
+	content: "";
+	width: 0;
+	height: 16px;
+	border-left: 1px solid #e4e4e4;
+	position: absolute;
+	top: 8px;
+	left: 170px;
+}
+#tip .follow span{
+	float: left;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	color: #a8a8a8;
+}
+.pic{
+	margin-left: 5px;
+	float: left;
+	width: 50px;
+	height: 30px;
+	cursor: pointer;
+	background-image: url(http://img.minshengec.com/img/mkt/ms_credit/v1/weixinIco.png);
+	background-repeat: no-repeat;
+	background-position: 10px 5px;
+}
+/*分类与轮播*/
+#nav_warp{
+	height: 145px;
+	width: 100%;
+	background: white;
+}
+.nav{
+	width: 1200px;
+	height: 112px;
+	margin: 0 auto;
+	background: white;
+}
+.nav img{
+	background: white;
+	margin-top: 14px;
+	float: left;
+}
+.search_warp{
+	width: 454px;
+	height: 30px;
+	border-radius: 30px;
+	border: 1px solid #ba0045;
+	float: left;
+	overflow: hidden;
+	margin-top: 22px;
+}
+.search{
+	width: 392px;
+	height: 30px;
+	outline: none;
+	border: none;
+	text-indent: 20px;
+}
+.search_btn{
+	width: 52px;
+	height: 30px;
+	background: #ba0045;
+	border-radius: 30px;
+	margin-left: 5px;
+	outline: none;
+	border: none;
+	color: white;
+}
+.warp{
+	width: 100%;
+	height: 33px;
+	background: #efecec;
+}
+.small_warp{
+	width: 1200px;
+	height: 33px;
+	margin: 0 auto;
+}
+.nav_left{
+	width: 200px;
+	height: 33px;
+	background: #980038;
+	color: white;
+	float: left;
+	text-align: center;
+	line-height: 25px;
+	position: relative;
+	font-size: 14px;
+}
+.nav_left:before{
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	border-top: 2px solid white;
+	border-right: 2px solid white;
+	transform: rotate(135deg);
+	bottom: 5px;
+	left: 95px;
+}
+.nav_right{
+	width: 1000px;
+	height: 33px;
+	background: #efecec;
+	float: left;
+	font-size: 14px;
+	line-height: 33px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.nav_right span:last-child{
+	margin-left: 30px;
+}
+.vip{
+	display: block;
+	float: right;
+	width: 189px;
+	height: 33px;
+	background-image: url(http://img.minshengec.com/img/mkt/ms_credit/v1/card.png?v=150415);
+	background-repeat: no-repeat;
+	background-position: center 0;
+}
+.vip:hover{
+	background-position: center -35px;
+}
+.shop_car{
+	width: 95px;
+	height: 32px;
+	float: left;
+	line-height: 32px;
+	text-indent: 10px;
+	border-radius: 32px;
+	overflow: hidden;
+	box-shadow: 1px 0px 1px #bbb;
+	margin-top: 21px;
+	margin-left: 40px;
+	background: #F3F3F3;
+}
+.shop_car i{
+	background: #F3F3F3;
+	float: left;
+	height: 32px;
+	width: 32px;
+	background-image: url(http://img.minshengec.com/img/mkt/ms_credit/v1/head_sprite0525.png);
+	background-repeat: no-repeat;
+	background-position: -15px -60px;
+}
